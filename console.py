@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Authors: YaredTsgie and MikiasHailu
 import cmd
 import re
 from models import storage
@@ -13,8 +14,7 @@ from models.review import Review
 from shlex import split
 
 class HBNBCommand(cmd.Cmd):
-    """this class is used to command the airbnb
-    """
+    """ this class is used to command the airbnb """
     prompt = "(hbnb) "
     all_classes = {"BaseModel", "User", "State", "City",
                    "Amenity", "Place", "Review"}
