@@ -17,7 +17,7 @@ class HBNBCommand(cmd.Cmd):
     """ this class is used to command the airbnb """
     prompt = "(hbnb) "
     all_classes = {"BaseModel", "User", "State", "City",
-                   "Amenity", "Place", "Review"}
+            "Amenity", "Place", "Review"}
 
     def emptyline(self):
         """function used to empty the line"""
@@ -231,7 +231,7 @@ class HBNBCommand(cmd.Cmd):
         new_list.append(args[0])
         try:
             my_dict = eval(
-                args[1][args[1].find('{'):args[1].find('}')+1])
+                    args[1][args[1].find('{'):args[1].find('}')+1])
         except Exception:
             my_dict = None
         if isinstance(my_dict, dict):
