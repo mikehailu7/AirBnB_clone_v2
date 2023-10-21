@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Author: mikiasHailu
 
-""" 0. Script to start a Flask web application """
+"""This module will Script a flask app"""
 
 from flask import Flask
 
