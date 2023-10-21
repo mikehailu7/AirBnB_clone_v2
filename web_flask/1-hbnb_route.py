@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # Author: MikiasHailu
-""" This module is a script to start a Flask web application with 2 commands """
+#!/usr/bin/python3
+""" 1. Script to start a Flask web application with 2 commands """
 
 from flask import Flask
 
@@ -19,6 +20,6 @@ def hello():
     """ Return other text. """
     return 'HBNB'
 
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
