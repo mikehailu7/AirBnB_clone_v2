@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # Author: mikiasHailu
-
 """This module will Script a flask app"""
 
 from flask import Flask
