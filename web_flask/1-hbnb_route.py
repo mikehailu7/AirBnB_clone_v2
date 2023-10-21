@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: MikiasHailu
-""" 1. Script to start a Flask web application with 2 commands """
+""" This will to start a Flask web application with 2 commands """
 
 from flask import Flask
 
