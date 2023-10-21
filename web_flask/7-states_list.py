@@ -2,7 +2,7 @@
 # Author: MikiasHailu
 """ This sript will starts a flask web application """
 from flask import Flask, render_template
-from models import storage
+from models import file_storage.py
 app = Flask(__name__)
 
 
