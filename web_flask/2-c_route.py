@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: MikiasHailu
-""" This will Script to start a Flask web application with 3 view functions """
+""" This will Script to start a flask web application with 3 view functions """
 
 from flask import Flask
 
