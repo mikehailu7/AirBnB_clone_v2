@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 #Author: mikiasHailu
+
 """ This module is used to start a Flask web application """
+
 from flask import Flask
 
 app = Flask(__name__)
