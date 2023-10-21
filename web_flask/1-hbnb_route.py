@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
+# Author: MikiasHailu
 """ This module is a script to start a Flask web application with 2 commands """
 
 from flask import Flask
